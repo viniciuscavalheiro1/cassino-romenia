@@ -1,6 +1,6 @@
 package com.nexos;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class CircleOfBettors {
@@ -8,7 +8,7 @@ public class CircleOfBettors {
     private boolean[] removed;
 
     public CircleOfBettors(int n) {
-        bettors = new ArrayList<>();
+        bettors = new LinkedList<>();
         for (int i = 1; i <= n; i++) {
             bettors.add(new Bettor(i));
         }
