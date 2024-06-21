@@ -12,7 +12,7 @@ public class Main {
             int m = scanner.nextInt();
             if (n == 0 && k == 0 && m == 0) break;
             Casino casino = new Casino(n, k, m);
-            casino.processarApostadores();
+            casino.processBettors();
         }
         scanner.close();
     }
